@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main(){
 
-   char a[20][20],len;
+   char a[20][20];
+   int len;
    printf("Enter the no of names : ");
    scanf("%d",&len);
    printf("Enter the names :");
